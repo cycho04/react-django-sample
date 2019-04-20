@@ -1,11 +1,11 @@
 module.exports = {
-    modules: {
+    module: {
         rules: [
             {
-                tests: /\.js$/,
+                test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: "bable-loader"
+                    loader: "babel-loader"
                 }
             }
         ]

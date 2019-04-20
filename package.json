@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./restapi/frontend/src/index.js --output ./restapi/frontend/static/main.js",
-    "build": "webpack --mode production ./restapi/frontend/src/index.js --output ./restapi/frontend/static/main.js"
+    "dev": "webpack --mode development --watch ./restapi/frontend/src/index.js --output ./restapi/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./restapi/frontend/src/index.js --output ./restapi/frontend/static/frontend/main.js"
   },
   "repository": {
     "type": "git",
